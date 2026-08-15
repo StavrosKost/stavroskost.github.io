@@ -1,5 +1,2 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+About me:
+Hello everyone, this is going to be a blog about my journey in findinging my first zero-day and beyond. Stay tuned!!
