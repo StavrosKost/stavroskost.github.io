@@ -43,3 +43,19 @@ hr {
   font-size: 2.5em;
   opacity: 0.3;
 }
+
+/* Change the page background and main text color */
+body {
+    background-color: #1a1a1a; 
+    color: #e0e0e0;
+}
+
+/* Change the color of hyperlinks */
+a {
+    color: #ffaa00;
+}
+
+/* Change the color of your blog title in the navigation */
+.navbar-brand {
+    color: #ffaa00 !important; 
+}
