@@ -46,16 +46,21 @@ hr {
 
 /* Change the page background and main text color */
 body {
-    background-color: #1a1a1a; 
-    color: #e0e0e0;
+    background-color: #1a1a1a !important; 
+    color: #e0e0e0 !important;
 }
 
 /* Change the color of hyperlinks */
 a {
-    color: #ffaa00;
+    color: #ffaa00 !important;
 }
 
 /* Change the color of your blog title in the navigation */
 .navbar-brand {
     color: #ffaa00 !important; 
+}
+
+/* Make the top navigation bar dark to match */
+.navbar {
+    background-color: #1a1a1a !important; 
 }
