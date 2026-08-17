@@ -67,6 +67,8 @@ So for example if i have allocated 2 chunks and then free the first one then the
 
 |M| Chunk in allocated with mmap call and is not part of a heap
 
+---
+
 ![Azure labs](/img/chunk-freed-CS.png)
 From azure labs
 
