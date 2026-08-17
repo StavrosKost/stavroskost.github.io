@@ -61,11 +61,11 @@ size of next chunk in bytes
 
 Lets explain this a bit because this might be confusing to beginners
 
-So for example if i have allocated 2 chunks and then free the first one then the second one in the size of chunk in bytes |A|0|P| P should be now 0 since it is no longer in use. So we can see it is really useful to check if the last bytes i 0 or 1 ie if it is 0x00000021 the previous chunk is in use if it is 0x00000020 the previous chunk is no longer in use
+So for example if i have allocated 2 chunks and then free the first one then the second one in the size of chunk in bytes \|A\|0\|P\| P should be now 0 since it is no longer in use. So we can see it is really useful to check if the last bytes i 0 or 1 ie if it is 0x00000021 the previous chunk is in use if it is 0x00000020 the previous chunk is no longer in use
 
-|A| If i it 1 chunk came from mmap and if it is 0 it came from main arena and the main heap
+\|A\| If i it 1 chunk came from mmap and if it is 0 it came from main arena and the main heap
 
-|M| Chunk in allocated with mmap call and is not part of a heap
+\|M\| Chunk in allocated with mmap call and is not part of a heap
 
 ---
 
