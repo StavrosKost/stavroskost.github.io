@@ -1,4 +1,4 @@
-# Memory Allocator
+# Part 2: Memory Allocator
 
 This was a project of mine that i recently created and it sort of mimics the GLIBC allocator but it is a lot simpler. Check it [here](https://github.com/StavrosKost/custom-c-allocator) if you want.
 
