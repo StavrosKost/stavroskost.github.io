@@ -1,4 +1,4 @@
-# Malloc Internals
+# Part 1: Malloc Internals
 
 Hello everyone today i will talk about how malloc works and my understandind of its internals and on the next parts i will build my own malloc as well as do some exploitation on malloc from glibc.
 
